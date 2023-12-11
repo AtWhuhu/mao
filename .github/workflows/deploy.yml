@@ -1,0 +1,38 @@
+name: Auto Deploy with Secrets and Selective Files
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  auto_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Fill in Secrets
+        run: |
+          sed -i 's/REPLACE_WITH_TOKEN/${{ secrets.TOKEN }}/g' cat/js/config_open.json
+
+      - name: Copy files to another repository
+        run: |
+          mkdir temp_repo
+          cd temp_repo
+          git init
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git remote add origin https://$USERNAME:$TOKEN@github.com/$USERNAME/$REPOSITORY.git
+          git fetch
+          git checkout main
+          cp -r ../cat/* .
+          git add .
+          git commit -m "Auto commit with filled in secrets and selected files"
+          git push https://$USERNAME:$TOKEN@github.com/$USERNAME/$REPOSITORY.git
+        env:
+          USERNAME: ${{ secrets.USERNAME }}
+          TOKEN: ${{ secrets.PUSHTOKEN }}
+          REPOSITORY: ${{ secrets.REPOSITORY }}
+          
