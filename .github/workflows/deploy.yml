@@ -15,7 +15,7 @@ jobs:
 
       - name: Fill in Secrets
         run: |
-          sed -i 's/REPLACE_WITH_TOKEN/${{ secrets.TOKEN }}/g' cat/js
+          sed -i 's/REPLACE_WITH_TOKEN/${{ secrets.TOKEN }}/g' cat/js/*.json
 
       - name: Replace assets://js/ with empty in files
         run: |
