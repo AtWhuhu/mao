@@ -37,7 +37,7 @@
 {"key":"bulei_open","name":"影视 | 布雷","type":3,"api":"assets://js/bulei_open.js"},
 {"key":"miku_open","name":"影视 | 咪咕","type":3,"api":"assets://js/miku_open.js"},
 {"key":"tutu_open","name":"影视 | 图图","type":3,"api":"assets://js/tutu_open.js"},
-{"key":"hmsp_open"，"name":"影视 | 河马","type":3,"api":"assets://js/hmsp_open.js"},
+{"key":"hmsp_open","name":"影视 | 河马","type":3,"api":"assets://js/hmsp_open.js"},
 {"key":"jojo_open","name":"影视 | jojo","type":3,"api":"assets://js/jojo_open.js"},
 {"key":"jiohub","name":"影视 | jiohub","type":3,"api":"assets://js/jiohub.js"},
 {"key":"dsxys_open","name":"影视 | 大师兄","type":3,"api":"assets://js/dsxys_open.js"},
@@ -58,7 +58,7 @@
         "rasPublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6Ykikz4aIqkJC899VxwX\nwx27bZJGV/fDbgAHtXxZ73Mq8QWuPfeAanWDWiGPhJu5aVQndADi7B0L5RBIrirf\n6lIzA+l8Ubt6+nvPYQ9NSlRkObE4ML2Hw7ccAmcqzDD0vplJz7Y8o7qKIoyfK5NP\nXDuiv52HgbyEP6KlWCiDfMuIsAA+/3x9C/0RDRgjf3x+24EuGOD6Gnw+rVJCOb64\nW4KZ7vH/uhaQSLLnNYF9VD00c072tOeaBt2mElexJN66gcP65kmrkI5grFz2RcEg\nIEkwUcYBNiFeHUcFyQZuDj/DLqQidwMhFJfkcUuMtByR9cYl9BpqT/3NKVQ1EPrV\n7QIDAQAB\n-----END PUBLIC KEY-----",
         "ic": "fwEUWytkwJqHICtu/kNrXOVGQAzWUw1mGuQYdT1heOKZ6vEEI+4jf6LAHJ/f4h39ZR2WL4fccGchSoCm+pqkBRi8asSMqZzKGGfY8ejzrYHxDjiTOhs4B6p/iC8Nrj+bcCmXAjVNksfxlcjU6JlbRQ=="
     }
-}，
+},
 {
     "key": "布雷v5",
     "name": "影视 | 布蕾",
@@ -73,7 +73,7 @@
         "rasPublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvBB/JjVWPpKFAWJCiQc5\neP6FrwNG8mXt/Y/yk98sigh/vNtX0sQX56eQi1YNvZ8sIiqoVWMl1/5NlANA0A/G\n/BiH5hCFYqY5L8adZIZgSd/QR8zMAyEDccVaNog6nmXQkGWjm/269Gl+gFaCOtXO\nzyEullcgevPcGHXwAGbGc1U3XaQjydC3mF290Mk4wKSjCn3sVfMSlgh8lsPhFvBo\n5MqqBWEkIz+eF+3ni2jQqHz1oy23RLPx9cV02GAHCQWFDlEZFUXvQHJU7RJP0X0z\nfpSg9bqVQ22iRvSWIE13S4SRf18eKt7S3yeH53sv/se/evXKyYE7P4wGhxhNuhOe\nXQIDAQAB\n-----END PUBLIC KEY-----\n",
         "ic": "fVO1y5qVGVto+xbgx3hgGlmgOBmxt1sr5g+uWbrh8ENTyZcVFduzilI0OHY/uAMcLNe4EjaSZjmsc8t2SCdcIxZ1q2i+OJHTB90YjwjG+5mLjKf8gbTBhztyxJk68atX5msA1qsFJVhxnqHCGBkViA=="
     }
-}，
+},
 {
     "key": "追忆",
     "name": "影视 | 追忆",
