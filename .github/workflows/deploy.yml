@@ -3,7 +3,7 @@ name: Auto Deploy with Secrets and Selective Files
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   auto_deploy:
@@ -19,7 +19,7 @@ jobs:
 
       - name: Replace assets://js/ with empty in files
         run: |
-          find cat/js -type f -exec sed -i 's/assets:\/\/js\///g' {} +
+          find cat/js/config_open.json -type f -exec sed -i 's/assets:\/\/js\///g' {} +
 
       - name: Copy files to another repository
         run: |
