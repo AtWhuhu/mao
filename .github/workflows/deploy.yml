@@ -17,6 +17,10 @@ jobs:
         run: |
           sed -i 's/REPLACE_WITH_TOKEN/${{ secrets.TOKEN }}/g' cat/js/config_open.json
 
+      - name: Replace assets://js/ with empty in files
+        run: |
+          find cat/js -type f -exec sed -i 's/assets:\/\/js\///g' {} +
+
       - name: Copy files to another repository
         run: |
           mkdir temp_repo
